@@ -1,13 +1,13 @@
 # part 1
 def p1():
     with open("input.txt") as f:
-        lines = f.readlines()
+        lines = f.read().splitlines()
 
 
 # part 2
 def p2():
     with open("input.txt") as f:
-        lines = f.readlines()
+        lines = f.read().splitlines()
 
 
 p1()
